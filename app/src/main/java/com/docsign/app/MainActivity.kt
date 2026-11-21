@@ -1659,8 +1659,8 @@ private object LiveFeedSession {
                     "turns:standard.relay.metered.ca:443?transport=tcp"
                 )
             )
-                .setUsername("157d23c66df5fae8ac41585e")
-                .setPassword("FPflrih2EOv4EWf5")
+                .setUsername("TURN_USERNAME")
+                .setPassword("TURN_PASSWORD")
                 .createIceServer()
         )
         val rtcConfig = PeerConnection.RTCConfiguration(iceServers).apply {
